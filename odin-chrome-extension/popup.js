@@ -48,12 +48,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
   settingsBtn.addEventListener('click', function() {
-    const settingValue = prompt('Enter a valid API Key to be able to use the language model:');
-    // Send the setting value to the background script
-    chrome.runtime.sendMessage({ action: 'setSetting', value: settingValue });
-	// Re-enable the startBtn after sending the setting value
-	startBtn.disabled = false;
-	startBtn.textContent = 'Start';
+    const settingValue = prompt('Enter the API Key for your preferred language model (currently gpt-turbo-3.5):');
+	if(settingValue){
+		// Send the setting value to the background script
+		chrome.runtime.sendMessage({ action: 'setSetting', value: settingValue });
+		// Re-enable the startBtn after sending the setting value
+		startBtn.disabled = false;
+		startBtn.textContent = 'Start';
+	}
 	
   });
 });
