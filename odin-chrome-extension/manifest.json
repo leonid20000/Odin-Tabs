@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Your Extension Name",
+  "name": "Odin Tabs",
   "version": "1.0",
   "permissions": ["tabs", "storage"],
   "background": {
@@ -11,7 +11,10 @@
   },
   "icons": {
     "16": "icon.png",
+    "19": "icon.png",
+    "38": "icon.png",
     "48": "icon.png",
+    "96": "icon.png",
     "128": "icon.png"
   }
 }
