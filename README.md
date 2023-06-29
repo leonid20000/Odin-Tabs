@@ -12,7 +12,7 @@ The extension consists of the following components:
 
 - **Popup HTML (`popup.html`):** The HTML markup for the popup window. It contains the necessary elements to display the face emoji, buttons, and recognized speech text.
 
-- **Speech-to-Text Script (`speechToText.js`):** Handles the speech recognition functionality. It utilizes the Web Speech API to convert spoken words into text. The recognized text is then furthur processed using the LLM of your choice (currently gpt-turbo-3.5) and the results are used to perform tab navigation.
+- **Speech-to-Text Script (`odinTabs.js`):** Handles the speech recognition functionality. It utilizes the Web Speech API to convert spoken words into text. The recognized text is then furthur processed using the LLM of your choice (currently gpt-turbo-3.5) and the results are used to perform tab navigation.
 
 - **Speech-to-Text HTML (`speechToText.html`):** The HTML markup for the speech-to-text page. It includes a container to display the recognized speech text.
 
