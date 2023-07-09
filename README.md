@@ -1,6 +1,10 @@
 # Odin Tabs Extension
 
-The Odin Tabs extension is a browser extension that allows you to navigate through your browser tabs using speech recognition and the Large Language Model (LLM) of your choice.
+The Odin Tabs extension is a browser extension that allows you to navigate through your browser tabs using speech recognition and the Large Language Model (LLM) of your choice. 
+
+Watch the video below for a full demo:
+
+[![Demo Video](https://img.youtube.com/vi/2lvl9aD4VXw/1.jpg)](https://www.youtube.com/watch?v=2lvl9aD4VXw)
 
 ## Use Cases
 
