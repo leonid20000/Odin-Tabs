@@ -1,12 +1,12 @@
-# Odin Tabs Extension
+# Odin Tabs Extension 👁️🎤🔍
 
-The Odin Tabs extension is a browser extension that allows you to navigate through your browser tabs using speech recognition and the Large Language Model (LLM) of your choice. 
+The Odin Tabs extension is a browser extension that allows you to navigate through your browser tabs using speech recognition and the Large Language Model (LLM) of your choice. 🗣️💬
 
-Watch the video below for a full demo:
+📺 Watch the video below for a full demo:
 
-[![Demo Video](https://img.youtube.com/vi/2lvl9aD4VXw/1.jpg)](https://www.youtube.com/watch?v=2lvl9aD4VXw)
+[![Demo Video](img/play.png)](https://www.youtube.com/watch?v=2lvl9aD4VXw)
 
-## Use Cases
+## Use Cases 📋🔍
 
 Odin Tabs can be useful in various scenarios and industries. Some common use cases include:
 
@@ -28,11 +28,9 @@ Odin Tabs can be useful in various scenarios and industries. Some common use cas
 
 - **Multiple Device Management:** Users who manage multiple devices, such as smartphones, tablets, and smart home devices, may have multiple tabs open for device management interfaces, syncing services, and cross-device communication.
 
+These circumstances often involve complex tasks, extensive information gathering, and the need to switch between various tools and resources, leading to a higher number of open tabs for efficient workflow management. 💼📈🖥️
 
-These circumstances often involve complex tasks, extensive information gathering, and the need to switch between various tools and resources, leading to a higher number of open tabs for efficient workflow management.
-
-
-## Functionality
+## Functionality 🛠️📚
 
 The extension consists of the following components:
 
@@ -46,7 +44,7 @@ The extension consists of the following components:
 
 - **Speech-to-Text HTML (`speechToText.html`):** The HTML markup for the speech-to-text page. It includes a container to display the recognized speech text.
 
-## Installation
+## Installation 🚀🔧
 
 To install the Odin Tabs extension, follow these steps:
 
@@ -74,7 +72,7 @@ To install the Odin Tabs extension, follow these steps:
 
 12. The face emoji in the popup window will change based on the state of the speech recognition. For example, it will display a sleeping emoji when the speech recognition stops.
 
-## Configuration
+## Configuration ⚙️🔧
 
 The Odin Tabs extension provides a settings option that allows you to configure a setting value. Here's how to configure the settings:
 
@@ -88,9 +86,7 @@ The Odin Tabs extension provides a settings option that allows you to configure 
 
 5. After setting the value, the **Start Speech Recognition** button will be enabled, and the face emoji will change to an active state.
 
-
-
-## Notes
+## Notes 📝🚀
 
 - The extension requires microphone access to perform speech recognition. Make sure to grant microphone permissions when prompted.
 
@@ -100,6 +96,6 @@ The Odin Tabs extension provides a settings option that allows you to configure 
 
 - The extension's functionality and behavior may be subject to changes and limitations imposed by browser updates or API changes.
 
-## Credits
+## Credits 👨‍💻📚
 
-The Odin Tabs extension was developed by Dr. Leonit Zeynalvand and is provided under the MIT license.
+The Odin Tabs extension was developed by Dr. Leonit Zeynalvand and is provided under the MIT license. 📜🔓
