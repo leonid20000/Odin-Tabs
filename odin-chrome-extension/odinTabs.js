@@ -81,7 +81,7 @@ if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
 			  // ...
 			})
 			.catch(error => {
-			  console.error(error);
+			  console.log(error);
 			});
 		
 
@@ -112,9 +112,14 @@ function generateText(altTabContext,transcript) {
 			  // Set the API endpoint URL
 			  const apiUrl = 'https://api.openai.com/v1/chat/completions';
 			  console.log(transcript);
+			  tabInfoSize = countTokens(altTabContext);
+			  modelName = "";
+			  if(tabInfoSize < 1000) modelName = "gpt-3.5-turbo"; else modelName = "gpt-3.5-turbo-16k";
+			  console.log("Aprox. number of tokens: ", tabInfoSize);
+			  console.log("Using ", modelName);
 			  // Set the request data
 			  const data = {
-				  "model": "gpt-3.5-turbo",
+				  "model": modelName,
 				  "messages": [{"role": "system", "content": altTabContext}, ...dialog, {"role":"system","content":"ONLY show the ID of the tab which is more likely to be relevant to user messages. Response format should be Tab ID: <TabID>"}],
 				  "temperature": 0.9,
 				  "max_tokens": 150,
@@ -123,6 +128,7 @@ function generateText(altTabContext,transcript) {
 				  "presence_penalty": 0.6
 			  };
 			  console.log(data);
+
 
 			  // Make the API request
 			  fetch(apiUrl, {
@@ -141,7 +147,7 @@ function generateText(altTabContext,transcript) {
 				  resolve(output); // Resolve the Promise with the generated text
 				})
 				.catch(error => {
-				  console.error(error);
+				  console.log(error);
 				  reject(error); // Reject the Promise with the error
 				});
 		  });
@@ -158,4 +164,18 @@ function createMessageObject(role, content) {
 
 function updateFaceSpan(content) {
   chrome.runtime.sendMessage({ action: 'updateFace', content: content });
+}
+
+function countTokens(str) {
+  // Remove leading and trailing white spaces
+  str = str.trim();
+  
+  // Split the string into words using various delimiters
+  const wordsArray = str.split(/[\s\-_\.]+/);
+  
+  // Remove empty elements from the array (caused by consecutive delimiters)
+  const filteredArray = wordsArray.filter(word => word !== "");
+  
+  // Return the number of words in the filtered array
+  return filteredArray.length;
 }
