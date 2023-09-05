@@ -102,3 +102,9 @@ The Odin Tabs extension provides a settings option that allows you to configure 
 ## Credits 👨‍💻📚
 
 The Odin Tabs extension was developed by Dr. Leonit Zeynalvand and is provided under the MIT license. 📜🔓
+
+## Light Up the Night
+
+**Odin Tabs** is an open-source project, embracing the power of community. Consider giving it a star 🌟, if you think it deserves one. Your star helps acknowledge the collective effort behind this project and motivates further improvements.
+
+Thank you for being a part of our open source community! 🌟
