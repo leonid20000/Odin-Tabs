@@ -13,7 +13,7 @@ Discover the game-changing capabilities of Odin Tabs, a versatile Chrome extensi
 
 🌐 **Empowering Independence:** Odin Tabs promotes independence and autonomy for individuals with motor impairments. It eliminates barriers that might otherwise hinder their ability to access information, communicate, and engage with online content.
 
-🔀 **maximizing productivity:** Seamlessly switch between tabs for data analysis, research, programming, project management, online learning, and social media, m across various tasks.
+🔀 **maximizing productivity:** Seamlessly switch between tabs for data analysis, research, programming, project management, online learning, and social media, minimizing the effort required to locate the right tab across various tasks.
 
 📺 **Seamless Media Experience:** Transform your entertainment setup with Odin Tabs, effortlessly navigating through browser tabs on smart TVs, streaming devices, and media centers using speech recognition. Enjoy a user-friendly and intuitive interface, easily switching between a variety of shows, movies, music, and online platforms without the need for a keyboard or mouse.
 
