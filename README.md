@@ -15,7 +15,7 @@ Discover the game-changing capabilities of Odin Tabs, a versatile Chrome extensi
 
 🔀 **Maximizing productivity:** Seamlessly switch between tabs for data analysis, research, programming, project management, online learning, and social media, minimizing the effort required to locate the right tab across various tasks.
 
-📺 **Seamless Media Experience:** Transform your entertainment setup with Odin Tabs, effortlessly navigating through browser tabs on smart TVs, streaming devices, and media centers using speech recognition. Enjoy a user-friendly and intuitive interface, easily switching between a variety of shows, movies, music, and online platforms without the need for a keyboard or mouse.
+📺 **Seamless Media Experience:** Transform your entertainment setup with Odin Tabs, effortlessly navigating through browser tabs on XR headsets, smart TVs, streaming devices, and media centers using speech recognition. Enjoy a user-friendly and intuitive interface, easily switching between a variety of shows, movies, music, and online platforms without the need for a keyboard or mouse.
 
 Experience the future of browsing with Odin Tabs and its wide-ranging applications!
 
