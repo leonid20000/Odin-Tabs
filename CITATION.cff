@@ -3,6 +3,6 @@ message: "If you would like to cite this software, please cite it as below."
 authors:
 - family-names: "Zeynalvand"
   given-names: "Leonit"
-title: "Odin Slides"
-date-released: 2023-08-05
-url: "https://github.com/leonid20000/odin-slides"
+title: "Odin Tabs"
+date-released: 2023-06-29
+url: "https://github.com/leonid20000/Odin-Tabs"
